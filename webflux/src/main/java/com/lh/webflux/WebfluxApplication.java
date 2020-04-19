@@ -1,13 +1,13 @@
-package com.lh.reactor;
+package com.lh.webflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactorApplication {
+public class WebfluxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReactorApplication.class, args);
+		SpringApplication.run(WebfluxApplication.class, args);
 	}
 
 }
